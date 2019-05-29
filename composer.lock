@@ -1,0 +1,49 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c4d1b1c73de7e78721d4f847d2bc4bd5",
+    "packages": [
+        {
+            "name": "mantas-done/subtitles",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mantas-done/subtitles.git",
+                "reference": "c11531b7a191b97e25235fabc804368a52326108"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mantas-done/subtitles/zipball/c11531b7a191b97e25235fabc804368a52326108",
+                "reference": "c11531b7a191b97e25235fabc804368a52326108",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Subtitle converter and generator for PHP",
+            "time": "2019-02-09T17:25:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "mantas-done/subtitles": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}

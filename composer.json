@@ -1,0 +1,21 @@
+{
+    "name": "motniemtin/midi",
+    "description": "Midi Class port from Valentin Schmidt [Midi Class]",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Lam Nguyen",
+            "email": "motniemtin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "mantas-done/subtitles": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Motniemtin\\Midi": "src/"
+        }
+    }
+}
